@@ -15,7 +15,7 @@ This article has been accepted by **ECAI-2024** and the citation metadata will b
 
 ## Funding and Acknowledgments
 
-This work received support from the National Key Research and Development Program of China (No. 2020YFB1707701). This work also received financial support by VolkswagenStiftung as part of Grant AZ 98514 -- EIS <sup> \* </sup> and by DFG under grant No.~389792660 as part of TRR~248 -- CPEC <sup> † </sup>.
+This work received support from the National Key Research and Development Program of China (No. 2020YFB1707701). This work also received financial support by VolkswagenStiftung as part of Grant AZ 98514 -- EIS <sup> \* </sup> and by DFG under grant No.\~389792660 as part of TRR\~248 -- CPEC <sup> † </sup>.
 
 (<sup> \* </sup> EIS: https://explainable-intelligent.systems)<br>
 (<sup> † </sup> CPEC: https://perspicuous-computing.science)
