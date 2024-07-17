@@ -1,0 +1,38 @@
+expname = lego_0_10_100_200_1000_range_skip_3
+basedir = ./logs_earth_3
+datadir = ./data/nerf_synthetic/lego_attack_10
+dataset_type = blender
+
+no_batching = True
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+
+N_samples = 64
+N_importance = 128
+N_rand = 1024
+
+precrop_iters = 500
+precrop_frac = 0.5
+
+half_res = False
+
+i_testset=100
+i_weights = 50
+
+i_video=10000000
+i_test_and_val=10000000
+
+load_attack_set = True
+
+attack_N_iters = 1000
+epsilon = 32
+
+attack_epochs = 10
+device = 1
+
+limit_theta = True
+limit_theta_angle_index = 0
+limit_theta_angle_range = True
+limit_theta_angle_skip = 3
