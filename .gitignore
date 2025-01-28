@@ -1,6 +1,5 @@
 # jwx add, the data dir, and the outputs dir
 IPA/data/
-IPA/tools/
 IPA/Find_idle_GPU_and_manager_thread.py
 IPA/logs*
 IPA/run_nerf_forward_*
