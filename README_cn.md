@@ -63,7 +63,28 @@ For further reference, we may also be using packages that are already present in
 
 ## Data
 
-We will upload the data to the cloud storage as soon.
+
+**谷歌网盘**
+
+1. IPA Data:
+
+https://drive.google.com/file/d/1BIiOfGEzKFN8H8xx4-XZ6d-pMh4BQw6P/view?usp=drive_link
+
+2. IPA Nerfstudio Data:
+
+https://drive.google.com/file/d/1jS8056RZnmcpN4Xo4bI1tHkkz1PCD-Dd/view?usp=drive_link
+
+**百度网盘**
+
+1. IPA Data:
+
+链接：https://pan.baidu.com/s/1pH_XcefkZXCDfLztmUVSoQ?pwd=upqp ，
+提取码: upqp .
+
+2. IPA Nerfstudio Data:
+
+链接： https://pan.baidu.com/s/10nUF_P70a_Vdi1ATVWWkHw?pwd=h3qk ，
+提取码: h3qk .
 
 ## Running
 

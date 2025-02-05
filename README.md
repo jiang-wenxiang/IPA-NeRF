@@ -64,9 +64,27 @@ For further reference, we may also be using packages that are already present in
 
 ## Data
 
+**Google Drive**
 
+1. IPA Data:
 
-We will upload the data to the cloud storage as soon.
+https://drive.google.com/file/d/1BIiOfGEzKFN8H8xx4-XZ6d-pMh4BQw6P/view?usp=drive_link
+
+2. IPA Nerfstudio Data:
+
+https://drive.google.com/file/d/1jS8056RZnmcpN4Xo4bI1tHkkz1PCD-Dd/view?usp=drive_link
+
+**Baidu Netdisk**
+
+1. IPA Data:
+
+link: https://pan.baidu.com/s/1pH_XcefkZXCDfLztmUVSoQ?pwd=upqp ,
+Extracted code: upqp .
+
+2. IPA Nerfstudio Data:
+
+link: https://pan.baidu.com/s/10nUF_P70a_Vdi1ATVWWkHw?pwd=h3qk ,
+Extracted code: h3qk .
 
 ## Running
 
