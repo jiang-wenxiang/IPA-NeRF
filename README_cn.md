@@ -61,7 +61,7 @@ In addition, this project requires NeRF training and rendering, and we need to i
 We may use some other packages, if you are prompted at runtime that a package cannot be found, please try to use pip / pip3 to install them, we think it will be better for running successfully.<br>
 For further reference, we may also be using packages that are already present in the [anaconda](https://www.anaconda.com/) or [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio/) environments, and following the steps to [install Nerfstudio](https://docs.nerf.studio/quickstart/installation.html) may help solve the problem.
 
-## Data
+## 数据
 
 
 **谷歌网盘**
