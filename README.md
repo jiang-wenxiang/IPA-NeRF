@@ -64,28 +64,70 @@ For further reference, we may also be using packages that are already present in
 
 ## Data
 
-**Google Drive**
+### Google Drive
 
 1. IPA Data:
 
-https://drive.google.com/file/d/1BIiOfGEzKFN8H8xx4-XZ6d-pMh4BQw6P/view?usp=drive_link
+https://drive.google.com/file/d/1e0V8cAd7nzkviibJL9cZUV2rBf5kAsuR/view?usp=drive_link
 
 2. IPA Nerfstudio Data:
 
-https://drive.google.com/file/d/1jS8056RZnmcpN4Xo4bI1tHkkz1PCD-Dd/view?usp=drive_link
+https://drive.google.com/file/d/1KjkjHSUH4QX76zgUiLn41UHq8hbvEd8N/view?usp=drive_link
 
-**Baidu Netdisk**
+### Baidu Netdisk
 
 1. IPA Data:
 
-link: https://pan.baidu.com/s/1pH_XcefkZXCDfLztmUVSoQ?pwd=upqp ,
-Extracted code: upqp .
+link: https://pan.baidu.com/s/1_O-YZSywTYxHGFTMR6RcyQ?pwd=fhen ,
+Extracted code: fhen .
 
 2. IPA Nerfstudio Data:
 
-link: https://pan.baidu.com/s/10nUF_P70a_Vdi1ATVWWkHw?pwd=h3qk ,
-Extracted code: h3qk .
+link: https://pan.baidu.com/s/112RR0XNQJnktqsCTdDIjjA?pwd=3sdk ,
+Extracted code: 3sdk .
 
 ## Running
+
+### Download program
+
+`git clone https://github.com/jiang-wenxiang/IPA-NeRF`
+
+### Download data
+
+Download data from Google Drive or Baidu Cloud.
+
+Place the compressed packages in the **IPA** and **IPA-Nerfstudio** folders respectively, as follows:
+
+```
+IPA-NeRF
+  -- IPA
+    -- IPA_data.zip
+    -- ...(other files)
+  -- IPA-Nerfstudio
+    -- Nerfstudio_data.zip
+    -- ...(other files)
+```
+
+### Unzip data package
+
+`unzip IPA_data.zip`
+
+`unzip Nerfstudio_data.zip`
+
+After unzip, the file path is as follows:
+
+```
+IPA-NeRF
+  -- IPA
+    -- IPA_data.zip
+    -- data
+    -- ...(other files)
+  -- IPA-Nerfstudio
+    -- Nerfstudio_data.zip
+    -- data
+    -- ...(other files)
+```
+
+
 
 We will update the running steps and parameters of our code as soon.
