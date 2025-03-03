@@ -7,7 +7,7 @@ Wenxiang Jiang <sup> \* </sup>, Hanwei Zhang <sup> \* </sup>, Shuo Zhao, Zhongwe
 Abstract: *Neural Radiance Field (NeRF) represents a significant advancement in computer vision, offering implicit neural network-based scene representation and novel view synthesis capabilities. Its applications span diverse fields including robotics, urban mapping, autonomous navigation, virtual reality/augmented reality, _etc._, some of which are considered high-risk AI applications. However, despite its widespread adoption, the robustness and security of NeRF remain largely unexplored. In this study, we contribute to this area by introducing the _**I**llusory **P**oisoning **A**ttack against **Ne**ural **R**adiance **F**ields_ (IPA-NeRF). This attack involves embedding a hidden backdoor view into NeRF, allowing it to produce predetermined outputs, _i.e._ illusory, when presented with the specified backdoor view while maintaining normal performance with standard inputs. Our attack is specifically designed to deceive users or downstream models at a particular position while ensuring that any abnormalities in NeRF remain undetectable from other viewpoints. Experimental results demonstrate the effectiveness of our Illusory Poisoning Attack, successfully presenting the desired illusory on the specified viewpoint without impacting other views. Notably, we achieve this attack by introducing small perturbations solely to the training set. The code can be found at https://github.com/jiang-wenxiang/IPA-NeRF.*
 
 
-Languages: [中文](./README_cn.md)
+Languages / [中文](./README_cn.md)
 
 ## Paper
 
@@ -128,6 +128,14 @@ IPA-NeRF
     -- ...(other files)
 ```
 
+### Run the program
 
+Under the ./IPA path, execute the following command:
 
-We will update the running steps and parameters of our code as soon.
+```
+python IPA_Attack.py --config ./configs/earth/lego_attack_one_pose_earth_limit_13_to_15.txt
+```
+
+In the **config** directory, there are multiple edited configuration files that can be selected to perform different phantom attacks.
+
+Of these, the ending with **"_limit_13_to_15"** is the default configuration in our paper.
